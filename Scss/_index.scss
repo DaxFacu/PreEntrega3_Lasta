@@ -1,0 +1,35 @@
+#menuIndex{
+        div{
+            margin: 4%;
+        }
+        article{
+            display: flex;
+            justify-content: space-around;
+        }
+}
+
+main{
+    section{
+        h2{
+            @extend .tittle;
+            padding:2%
+        }
+    }
+}
+
+.productosDest{
+    article{
+        &:hover{
+            animation: scaleAnim 1s ease 0s 1 normal forwards;
+        }
+        a{
+            img{
+                width: 100%;
+            }
+            p{
+                font-size: $fontProductText;
+                text-align: center;
+            }
+        }
+    }
+}

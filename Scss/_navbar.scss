@@ -1,0 +1,8 @@
+
+.navText{
+    li{
+        a{
+           @include TextFamilySize($fontRoboto, 2em)
+        }
+    }
+}

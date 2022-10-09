@@ -1,0 +1,39 @@
+#contactoCont{
+    width: 90%;
+    section{
+        div{
+            article{
+                h2{
+                    @extend .tittle;
+                    text-align: center;
+                }
+                p{
+                    font-size: $fontGeneralText;
+                }
+            }
+        }
+    }
+}
+
+
+
+#contacto{
+    width: 90%;
+        div{ 
+              h2{
+                    @extend .tittle;
+                    text-align: center;
+                }
+                label{
+                    font-size: $fontGeneralText;
+                }
+                textarea{
+                    height: 10vh;
+            }
+            button{
+                font-size: $fontGeneralText;
+                width: 20%;
+                background-color: map-get($map: $colorm, $key: 'colorButton');
+            }
+        }
+}

@@ -1,0 +1,36 @@
+.listA{
+    text-align: center;
+    list-style:none;
+    li{
+ 
+        h3{
+            font-size: $fontTittleText;
+            font-weight: $fontTitleWeight;
+        }
+    }
+    li{
+        text-align: center;
+        a{
+            text-align: center;
+            
+            font-size: $fontGeneralText;
+        }
+    }
+    li{
+        text-align: center;
+       
+        p{
+            font-size: $fontGeneralText;
+        }
+        a{
+           text-decoration: none;
+        }
+    }
+}
+
+#footer{
+    section{
+        background-color: map-get($map: $colorm, $key: 'secondary');
+    }
+  
+}

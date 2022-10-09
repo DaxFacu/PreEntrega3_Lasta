@@ -1,0 +1,27 @@
+.textoCenter{
+    text-align: Center;
+}
+
+.textoJustificado{
+text-justify:auto;
+}
+
+.textoNegro{
+    color: map-get($map: $colorm, $key: 'colorBlack');
+}
+
+.textoRojo{
+    color: map-get($map: $colorm, $key: 'colorRed');
+}
+
+.block{
+    display: block;
+}
+
+.list-unstyled {
+list-style: none;
+}
+
+.centerImage{
+    padding-left: 33.8%;
+}

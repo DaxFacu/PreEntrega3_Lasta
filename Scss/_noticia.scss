@@ -1,0 +1,44 @@
+#noticia{
+    article{
+        margin-left: 2%;
+        h2{
+           font-size: $fontTitleWeight; 
+           font-size: $fontTittleText;
+           text-align: center;
+        }
+        img{
+            width: 100%;
+        }
+        div{
+            width: 100%;
+            p{
+                font-size: $fontGeneralText;
+                text-align: justify;
+            }
+            h3{
+                font-size: $fontTittleText;
+                font-weight: $fontTitleWeight;
+                text-align: center;
+            }
+        }
+    }
+        .noticiaIframe{
+        padding-left: 25%;
+        }
+}
+
+.noticiasDest{
+    h2{
+        text-align: center;
+    }
+
+    div{
+        article{
+            a{
+                font-size: $fontGeneralText;
+                text-align: center;
+                text-decoration: none;
+            }
+        }
+    }
+}

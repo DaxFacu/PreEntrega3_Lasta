@@ -1,0 +1,28 @@
+#productos{
+    div{
+        section{
+            div{
+                nav{
+                    button{
+                        background-color: map-get($map: $colorm, $key: 'colorButton');
+                        color: map-get($map: $colorm, $key: 'primary');
+                        border-color: map-get($map: $colorm, $key: 'primary');;
+                    }
+                }
+                article{
+                    &:hover{
+                        animation: scaleAnim 1s ease 0s 1 normal forwards;
+                    }
+                }
+            }
+            div{
+                a{
+                    text-decoration: none;
+                        font-size: $fontGeneralText;
+                        text-align: center;
+                }
+            }
+        }
+    }
+}
+
