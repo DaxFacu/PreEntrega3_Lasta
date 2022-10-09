@@ -1,7 +1,7 @@
 {
   "name": "todo3d",
   "version": "1.0.0",
-  "description": "Todo3D",
+  "description": "Todo3D: todo sobre el mundo del 3D: impresoras, noticias, modelos, software",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
